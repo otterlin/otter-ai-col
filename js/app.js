@@ -3,7 +3,7 @@ let data,THREE,OrbitControls, scene3d, camera, renderer, controls, islandGroups=
 const theme=localStorage.getItem('otter-theme')||'mint'; document.documentElement.dataset.theme=theme; $$('.theme-dot').forEach(b=>b.classList.toggle('active',b.dataset.themeChoice===theme));
 
 async function init(){
-  data=await (await fetch('./data/content.json')).json();
+  data=await (await fetch('./data/content.json?v=20261028')).json();
   renderList(); renderFilters(); updateProgress(); renderSources(); bindUI(); enhanceToolbar();
   try{await init3D()}catch(e){console.warn('WebGL fallback',e); $('#fallback').hidden=false}
   setMotion(reduced); tickClock(); setInterval(tickClock,1000);
