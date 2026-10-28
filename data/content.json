@@ -1,0 +1,60 @@
+{
+  "site": {
+    "title": "阿特師的喃喃自語",
+    "tagline": "阿特師的教學心得與成果",
+    "author": "阿特老師（林永祥）",
+    "contact": "9502@tyjh.tc.edu.tw",
+    "audience": "老師與教育工作者",
+    "mascot": "阿特",
+    "mascotDescription": "帶著眼鏡、穿著創客工作服的擬人化水獺"
+  },
+  "center": {
+    "id": "center",
+    "name": "阿特師的喃喃自語",
+    "intro": "把自然、資優、創客與數位學習，整理成一座可以慢慢探索的教學群島。",
+    "points": ["用生物人的眼睛觀察世界", "用研究與實作陪學生找到問題", "用數位工具讓學習更靠近生活"],
+    "extra": "中央廣場與阿特水獺工作室",
+    "quiz": {"question": "這座群島的主角是哪一種擬人化動物？", "options": ["水獺", "狐狸", "企鵝"], "answer": 0}
+  },
+  "islands": [
+    {
+      "order": 1, "id": "island-01", "name": "我的介紹", "category": "關於我", "icon": "✦", "intro": "在大雅國中教授自然與資優班課程，興趣廣泛的自然人，也曾投入特教、資訊與校務行政。",
+      "points": ["畢業於國立臺灣師範大學生物學系，後於生命科學研究所研讀細胞生物組。", "從 95 年起在臺中市立大雅國民中學任教，歷任導師、資優資源班導師、特教組長與資訊組長。", "持續把科學探究、數位學習與 AI 工具帶回教學現場。"],
+      "extra": "阿特老師工作室", "quiz": {"question": "阿特老師的主要教學場域是哪裡？", "options": ["大雅國中", "海邊小學", "森林研究所"], "answer": 0},
+      "sources": [{"label": "個人履歷與自我介紹素材", "url": ""}]
+    },
+    {
+      "order": 2, "id": "island-02", "name": "自然教學", "category": "工作與創作", "icon": "❧", "intro": "一位從生物學出發的自然老師，喜歡讓觀察、實驗與生活經驗彼此連起來。",
+      "points": ["以生物、發育生物學與生態調查為專長，帶學生從問題出發進行觀察。", "曾指導多屆科學展覽與自然探究，主題涵蓋生物、化學及生活與應用科學。", "課程可延伸到校園植物、小麥生長、食農教育與永續發展。"],
+      "extra": "生態觀察站", "quiz": {"question": "自然教學最重視從哪裡開始？", "options": ["觀察與提問", "背誦答案", "只看影片"], "answer": 0},
+      "links": [{"label": "校園植物網站", "url": "https://sites.google.com/tyjh.tc.edu.tw/plant/%E9%A6%96%E9%A0%81"}],
+      "sources": [{"label": "大雅國中校園植物", "url": "https://sites.google.com/tyjh.tc.edu.tw/plant/%E9%A6%96%E9%A0%81"}]
+    },
+    {
+      "order": 3, "id": "island-03", "name": "創客教學", "category": "工作與創作", "icon": "⚙", "intro": "喜好木工、機電整合、雷射切割與 3D 列印的生物人，讓想法經過手和工具變成可以測試的作品。",
+      "points": ["投入 Arduino、物聯網、AIOT、3D 列印、雷射切割與 CAD 等創客學習。", "曾召集校內創客教師社群，透過共備、分享與成果發表累積課程。", "Maker 課程重視反覆試作、修正與把科技連結到真實生活。"],
+      "extra": "創客工坊：雷切台與 3D 列印塔", "quiz": {"question": "下列哪一項屬於創客教學內容？", "options": ["3D 列印", "只抄筆記", "背誦課文"], "answer": 0},
+      "links": [{"label": "阿特的 Maker 日誌", "url": "https://sites.google.com/tyjh.tc.edu.tw/maker/%E9%A6%96%E9%A0%81"}],
+      "sources": [{"label": "阿特的 Maker 日誌", "url": "https://sites.google.com/tyjh.tc.edu.tw/maker/%E9%A6%96%E9%A0%81"}]
+    },
+    {
+      "order": 4, "id": "island-04", "name": "資優班教學", "category": "工作與創作", "icon": "⌁", "intro": "具有資優教師培訓背景，長期陪伴學生進行獨立研究與科展的自然老師。",
+      "points": ["曾進修資優教育學程，擔任數理資優班導師，陪學生練習從興趣發展研究問題。", "獨立研究與科展指導以學生興趣為起點，再逐步引導方法、紀錄與表達。", "AI 可協助摘要、整理、提問與規劃，但研究結論仍需要查證與實作。"],
+      "extra": "探究研究塔：問題牆與觀察天台", "quiz": {"question": "獨立研究通常應該從什麼開始？", "options": ["學生感興趣的問題", "直接複製結論", "先猜一個分數"], "answer": 0},
+      "links": [{"label": "生物模擬網站", "url": "https://sites.google.com/tyjh.tc.edu.tw/biosemi/%E9%A6%96%E9%A0%81"}],
+      "sources": [{"label": "如何用 AI 指導科學與科技研究（使用者提供教材）", "url": ""}, {"label": "阿特老師生物模擬網站", "url": "https://sites.google.com/tyjh.tc.edu.tw/biosemi/%E9%A6%96%E9%A0%81"}]
+    },
+    {
+      "order": 5, "id": "island-05", "name": "數位自主學習", "category": "工作與創作", "icon": "▦", "intro": "把因材網、自主學習與 AI 協作帶進課程，讓學生練習設定目標、整理資料與回看自己的學習。",
+      "points": ["使用因材網進行自然科探究式教材與自主學習實作。", "AI 適合協助閱讀統整、摘要、格式改寫、簡報規劃與自我問答；提問要清楚並提供合適資料。", "數位工具是學習夥伴，不取代查證、思考與實驗。"],
+      "extra": "AI 學習基地：數位看板與學習航線", "quiz": {"question": "使用 AI 協作時，哪個做法較合適？", "options": ["說清楚任務、資料與輸出格式", "完全不查證", "只貼一句話就要求答案"], "answer": 0},
+      "sources": [{"label": "如何用 AI 指導科學與科技研究（使用者提供教材）", "url": ""}, {"label": "美麥人生課程素材（使用者提供教材）", "url": ""}]
+    }
+  ],
+  "webSources": [
+    {"label": "阿特的 Maker 日誌", "url": "https://sites.google.com/tyjh.tc.edu.tw/maker/%E9%A6%96%E9%A0%81"},
+    {"label": "阿特老師生物模擬網站", "url": "https://sites.google.com/tyjh.tc.edu.tw/biosemi/%E9%A6%96%E9%A0%81"},
+    {"label": "大雅國中校園植物", "url": "https://sites.google.com/tyjh.tc.edu.tw/plant/%E9%A6%96%E9%A0%81"}
+  ],
+  "sourceNote": "本站為非官方整理，正確資訊以原網站與提供的原始資料為準。公開網站資料查詢日期：2026-10-27。地標命名、互動設計與小測驗為示意／自編練習題。"
+}
