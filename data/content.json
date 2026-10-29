@@ -27,7 +27,7 @@
       "order": 2, "id": "island-02", "name": "自然教學", "category": "工作與創作", "icon": "❧", "intro": "一位從生物學出發的自然老師，喜歡讓觀察、實驗與生活經驗彼此連起來。",
       "points": ["以生物、發育生物學與生態調查為專長，帶學生從問題出發進行觀察。", "曾指導多屆科學展覽與自然探究，主題涵蓋生物、化學及生活與應用科學。", "課程可延伸到校園植物、小麥生長、食農教育與永續發展。"],
       "extra": "生態觀察站", "quiz": {"question": "自然教學最重視從哪裡開始？", "options": ["觀察與提問", "背誦答案", "只看影片"], "answer": 0},
-      "links": [{"label": "校園植物網站", "url": "https://sites.google.com/tyjh.tc.edu.tw/plant/%E9%A6%96%E9%A0%81"}, {"label": "阿特師的營養島｜自然第一冊營養", "url": "https://otterlin.github.io/otter-ai-nutri/"}, {"label": "阿特師的運輸作用島", "url": "https://otterlin.github.io/otter-transport-island/"}, {"label": "阿特師的恆定性島｜生物的恆定性", "url": "https://otterlin.github.io/otter-homeostasis-island/"}, {"label": "阿特師的協調作用島｜生物的協調作用", "url": "https://otterlin.github.io/coordination-biology-island/"}],
+      "links": [{"label": "校園植物網站", "url": "https://sites.google.com/tyjh.tc.edu.tw/plant/%E9%A6%96%E9%A0%81"}, {"label": "阿特老師生物模擬網站", "url": "https://sites.google.com/tyjh.tc.edu.tw/biosemi/%E9%A6%96%E9%A0%81"}, {"label": "阿特師的營養島｜自然第一冊營養", "url": "https://otterlin.github.io/otter-ai-nutri/"}, {"label": "阿特師的運輸作用島", "url": "https://otterlin.github.io/otter-transport-island/"}, {"label": "阿特師的恆定性島｜生物的恆定性", "url": "https://otterlin.github.io/otter-homeostasis-island/"}, {"label": "阿特師的協調作用島｜生物的協調作用", "url": "https://otterlin.github.io/coordination-biology-island/"}],
       "sources": [{"label": "大雅國中校園植物", "url": "https://sites.google.com/tyjh.tc.edu.tw/plant/%E9%A6%96%E9%A0%81"}]
     },
     {
