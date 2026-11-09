@@ -1,0 +1,16 @@
+.maker-launch{margin:1rem 0}
+.maker-lab{position:fixed;inset:0;z-index:30;display:grid;place-items:center;padding:1rem;background:rgba(22,34,32,.62)}
+.maker-lab[hidden]{display:none}
+.maker-lab-card{position:relative;width:min(680px,100%);max-height:min(92vh,760px);overflow:auto;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:24px;padding:clamp(1.2rem,4vw,2rem);box-shadow:0 24px 70px rgba(0,0,0,.25)}
+.maker-lab-card h2{margin:.25rem 0 .6rem}
+.maker-inputs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem;margin:1rem 0}
+.maker-inputs label{display:grid;gap:.35rem;font-size:.85rem;font-weight:700}
+.maker-inputs input{width:100%;min-height:44px;padding:.65rem .7rem;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);font:inherit}
+.maker-result{display:grid;gap:.35rem;padding:1rem;border-radius:16px;background:color-mix(in srgb,var(--primary) 10%,transparent);border:1px solid color-mix(in srgb,var(--primary) 25%,transparent);margin-bottom:1rem}
+.maker-result span{font-size:.92rem}
+.wing-demo{position:relative;height:120px;margin:1rem 0;border-radius:18px;overflow:hidden;background:linear-gradient(150deg,#bde8dc,#e9c98f);display:grid;place-items:center}
+.demo-bird{font-size:3rem;filter:drop-shadow(0 5px 3px rgba(0,0,0,.18));transform-origin:center}
+.demo-line{position:absolute;top:14px;width:2px;height:40px;background:#46645f;transform-origin:top}.demo-line.left{left:calc(50% - 38px);transform:rotate(14deg)}.demo-line.right{right:calc(50% - 38px);transform:rotate(-14deg)}
+.wing-demo.flap .demo-bird{animation:wingFlap 1s ease-in-out infinite}.wing-demo.flap .demo-line.left{animation:lineLeft 1s ease-in-out infinite}.wing-demo.flap .demo-line.right{animation:lineRight 1s ease-in-out infinite}
+@keyframes wingFlap{50%{transform:translateY(-8px) rotate(-5deg)}}@keyframes lineLeft{50%{transform:rotate(-14deg)}}@keyframes lineRight{50%{transform:rotate(14deg)}}
+@media(max-width:520px){.maker-inputs{grid-template-columns:1fr}.maker-lab{padding:.6rem}.maker-lab-card{border-radius:18px}}
